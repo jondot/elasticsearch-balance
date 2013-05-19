@@ -24,6 +24,7 @@
         width = 1252
         height = 500
 
+        # yuck!
         palette1 = [ 
           '#A35840',
           '#DC4B41',
@@ -37,7 +38,8 @@
           '#58B0D5',
           '#A0DCF8'
         ]
-        palette = [ '#69D2E7',
+        # yuck!
+        palette2 = [ '#69D2E7',
                     '#A7DBD8',
                     '#E0E4CC',
                     '#F38630',
@@ -48,8 +50,10 @@
                     '#C7F464',
                     '#FF6B6B'
                     ]
-        color = d3.scale.ordinal().range(palette)
-        #color = d3.scale.category20()
+        # color = d3.scale.ordinal().range(palette)
+
+        # hmpf, take colorbrewer colors then; no time right now.
+        color = d3.scale.category20c()
         sizes = d3.format(",.2s")
         treemap = d3.layout.treemap()
           .size([width, height])

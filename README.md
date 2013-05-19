@@ -1,7 +1,7 @@
 # Balance
 
 Elastic Search Balance provides an intuitive view of your data distribution acrosss indices, shards, replicas
-and nodes.
+and nodes, using a [Treemap](http://en.wikipedia.org/wiki/Treemapping).
 
 
 ## Usage
