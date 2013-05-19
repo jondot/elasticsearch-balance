@@ -11,7 +11,7 @@ You can use Balance as a tool to quickly visualize your data distribution. Just 
 Under the hood, two endpoints are accessed read-only:
 
 * GET `/_cluster/nodes` - fetching node names
-* GET `/_status` - fetching data and distribution
+* GET `/_status` - fetching statistics and distribution
 
 You can also set polling for 5, 15, and 60 minutes if you're
 setting this on a dashboard. 
