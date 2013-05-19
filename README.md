@@ -6,7 +6,7 @@ and nodes, using a [Treemap](http://en.wikipedia.org/wiki/Treemapping).
 
 ## Usage
 
-You can use Balance as a tool to quickly analyze your data distribution. Just drop your cluster URL into the address box. 
+You can use Balance as a tool to quickly visualize your data distribution. Just drop your cluster URL into the address box. 
 
 Under the hood, two endpoints are accessed read-only:
 
