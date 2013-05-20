@@ -4,6 +4,10 @@ Elastic Search Balance provides an intuitive view of your data distribution acro
 and nodes, using a [Treemap](http://en.wikipedia.org/wiki/Treemapping).
 
 
+<img src="https://raw.github.com/jondot/elasticsearch-balance/master/shot.png" style="width:200px"/><br/>
+
+
+
 ## Usage
 
 You can use Balance as a tool to quickly visualize your data distribution. Just drop your cluster URL into the address box. 
